@@ -1,0 +1,301 @@
+.container-custom {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.contact-button {
+  background-color: #ff4b5c;
+  border: none;
+  color: white;
+}
+
+.contact-button:hover {
+  background-color: #ff1a3c;
+}
+
+.img-fluid {
+  height: 500px;
+  width: 400px;
+}
+
+
+/* carousal  */
+
+
+.carousel-item {
+  position: relative;
+  height: 400px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 20;
+  width: 89%;
+  height: 100%;
+  background-color: rgba(255, 75, 92, 0.9);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.hovering:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-content {
+  text-align: center;
+}
+
+.contact-button {
+  background-color: #ff4b5c;
+  border: none;
+  color: white;
+}
+
+.contact-button:hover {
+  background-color: #ff1a3c;
+}
+
+.carousel-indicators li {
+  background-color: #ff4b5c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-why-choose-us {
+  margin: auto;
+  text-align: center;
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.custom-why-choose-us-title {
+  color: #dc3545;
+
+}
+
+.custom-why-choose-us-heading {
+  margin-bottom: 30px;
+  font-weight: bold;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+
+}
+
+.custom-why-choose-us-card {
+  border: none;
+  background: none;
+  margin-bottom: 40px;
+
+}
+
+.custom-why-choose-us-card img {
+  width: 50px;
+  margin-bottom: 20px;
+  justify-self: flex-start;
+}
+
+.custom-why-choose-us-card-body {
+  padding: 0;
+}
+
+.custom-why-choose-us-card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.custom-why-choose-us-card-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+
+
+
+
+
+
+.custom-project-section {
+  text-align: start;
+  padding: 10px 30px;
+}
+
+.custom-project-title {
+  color: #dc3545;
+  text-align: center;
+
+}
+
+.custom-project-heading {
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.custom-project-content {
+  display: flex;
+  justify-self: flex-start;
+
+}
+
+.custom-project-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.custom-project-details {
+  margin-left: 30px;
+
+}
+
+.custom-project-item {
+  padding: 15px;
+  cursor: pointer;
+  background-color: #f2f2f3;
+
+}
+
+.custom-project-item:hover,
+.custom-project-item.active {
+  background-color: #f8f9fa;
+  border-left: 5px solid #dc3545;
+}
+
+.custom-project-item.active {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+
+
+.custom-growth-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.custom-growth-title {
+  color: #dc3545;
+}
+
+.custom-growth-heading {
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.custom-growth-card {
+  background-color: white;
+  border: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-growth-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.custom-growth-card-icon {
+  font-size: 2rem;
+  color: #dc3545;
+  margin-bottom: 15px;
+}
+
+.custom-growth-card-number {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.custom-growth-card-text {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+
+
+
+
+
+
+
+
+
+.testimonial-section {
+  padding: 40px;
+  margin-top: 0%;
+}
+
+.testimonial-header {
+  text-align: center;
+  color: #dc3545;
+  margin-bottom: 20px;
+}
+
+.testimonial-header h4 {
+  color: black;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.testimonial-text {
+  color: black;
+  padding: 0px 250px;
+
+}
+
+.rating-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: pink;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-weight: bold;
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.coo-title {
+  color: pink;
+  font-weight: bold;
+}
+
+
+
+.testimonial-section {
+  background: #ffffff;
+  margin-top: 10%;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.btn-contact {
+  display: block;
+  color: white;
+}
